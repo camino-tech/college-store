@@ -10,6 +10,7 @@ import About from '../pages/About';
 import Profile from '../pages/Profile';
 import Error from '../pages/Error';
 import NavigationBar from '../components/NavigationBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
