@@ -9,11 +9,13 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import Profile from '../pages/Profile';
 import Error from '../pages/Error';
+import NavigationBar from '../components/NavigationBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
     <Router>
-      {/* put navbar here */}
+      <NavigationBar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
